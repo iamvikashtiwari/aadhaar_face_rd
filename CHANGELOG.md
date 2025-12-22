@@ -1,3 +1,6 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+- Initial release
+- Android intent-based FaceRD integration
+- iOS headless FaceRD flow (backend-driven)
+- UIDAI-compliant architecture
