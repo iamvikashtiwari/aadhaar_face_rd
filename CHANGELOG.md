@@ -1,6 +1,7 @@
-## 0.0.1
+## 0.1.0
 
-- Initial release
-- Android intent-based FaceRD integration
+- Initial release of aadhaar_face_rd
+- Android intent-based Aadhaar FaceRD integration
 - iOS headless FaceRD flow (backend-driven)
 - UIDAI-compliant architecture
+- Example app for Android and iOS

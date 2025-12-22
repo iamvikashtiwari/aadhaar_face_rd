@@ -36,7 +36,8 @@ A Flutter plugin for integrating **UIDAI Aadhaar FaceRD** on **Android and iOS**
 This behavior is mandated by **UIDAI and Apple security policies**.
 
 📘 **For detailed iOS behavior, see:**  
-`docs/ios_face_rd_flow.md`
+`doc/ios_face_rd_flow.md`
+`doc/backend_integration.md`
 
 ---
 
