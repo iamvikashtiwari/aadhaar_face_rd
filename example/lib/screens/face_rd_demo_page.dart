@@ -4,7 +4,8 @@ import 'package:uuid/uuid.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../services/facerd_service.dart';
-import 'package:aadhaar_face_rd/src/facerd_xml_builder.dart';
+import 'package:aadhaar_face_rd/aadhaar_face_rd.dart';
+
 
 class FaceRdDemoPage extends StatefulWidget {
   const FaceRdDemoPage({super.key});
