@@ -1,0 +1,33 @@
+name: aadhaar_face_rd
+description: >
+  Flutter plugin for integrating UIDAI Aadhaar FaceRD service, enabling
+  secure Aadhaar face authentication using the CAPTURE API on both
+  Android and iOS devices.
+
+version: 0.1.0
+
+homepage: https://github.com/yourorg/aadhaar_face_rd
+repository: https://github.com/yourorg/aadhaar_face_rd
+issue_tracker: https://github.com/yourorg/aadhaar_face_rd/issues
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.7.0"
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.aadhaar_face_rd
+        pluginClass: AadhaarFaceRdPlugin
+      ios:
+        pluginClass: AadhaarFaceRdPlugin
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
