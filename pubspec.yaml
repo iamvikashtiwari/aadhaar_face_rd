@@ -4,7 +4,7 @@ description: >
   secure Aadhaar face authentication using the CAPTURE API on both
   Android and iOS devices.
 
-version: 0.1.2
+version: 0.1.3
 
 homepage: https://github.com/iamvikashtiwari/aadhaar_face_rd
 repository: https://github.com/iamvikashtiwari/aadhaar_face_rd

@@ -1,3 +1,7 @@
+## 0.1.3
+- Added MIT license
+- Code formatting applied for pub score compliance
+
 ## 0.1.2
 - Documentation improvements
 - README updates

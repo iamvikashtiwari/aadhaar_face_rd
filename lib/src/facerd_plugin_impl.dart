@@ -7,7 +7,7 @@ class AadhaarFaceRd {
   static const MethodChannel _channel = MethodChannel('facerd_channel');
 
   final StreamController<String?> _controller =
-  StreamController<String?>.broadcast();
+      StreamController<String?>.broadcast();
 
   /// Stream of FaceRD responses (PID XML or error)
   Stream<String?> get onResponse => _controller.stream;
@@ -22,8 +22,7 @@ class AadhaarFaceRd {
 
   /// Check if Aadhaar FaceRD app is installed
   Future<bool> isFaceRDInstalled() async {
-    final bool installed =
-    await _channel.invokeMethod("isFaceRDInstalled");
+    final bool installed = await _channel.invokeMethod("isFaceRDInstalled");
     return installed;
   }
 

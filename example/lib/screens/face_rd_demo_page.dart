@@ -6,7 +6,6 @@ import 'package:url_launcher/url_launcher.dart';
 import '../services/facerd_service.dart';
 import 'package:aadhaar_face_rd/aadhaar_face_rd.dart';
 
-
 class FaceRdDemoPage extends StatefulWidget {
   const FaceRdDemoPage({super.key});
 
@@ -16,7 +15,6 @@ class FaceRdDemoPage extends StatefulWidget {
 
 class _FaceRdDemoPageState extends State<FaceRdDemoPage>
     with WidgetsBindingObserver {
-
   final FaceRDService _service = FaceRDService();
 
   String? _response;
@@ -130,8 +128,7 @@ class _FaceRdDemoPageState extends State<FaceRdDemoPage>
   void _openStore() {
     const androidUrl =
         'https://play.google.com/store/apps/details?id=in.gov.uidai.facerd';
-    const iosUrl =
-        'https://apps.apple.com/in/app/aadhaarfacerd/id6479888451';
+    const iosUrl = 'https://apps.apple.com/in/app/aadhaarfacerd/id6479888451';
 
     final isIOS = Theme.of(context).platform == TargetPlatform.iOS;
     final url = isIOS ? iosUrl : androidUrl;
@@ -151,9 +148,7 @@ class _FaceRdDemoPageState extends State<FaceRdDemoPage>
               onPressed: _startCapture,
               child: const Text('Launch FaceRD'),
             ),
-
             const SizedBox(height: 20),
-
             if (_response != null)
               Align(
                 alignment: Alignment.centerRight,
@@ -169,7 +164,6 @@ class _FaceRdDemoPageState extends State<FaceRdDemoPage>
                   },
                 ),
               ),
-
             Expanded(
               child: Container(
                 width: double.infinity,
