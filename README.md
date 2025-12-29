@@ -58,7 +58,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  aadhaar_face_rd: ^0.1.2
+  aadhaar_face_rd: ^0.1.3
   ```
 
 
